@@ -78,80 +78,23 @@
         .row.flex{
             width: 100%;
             flex-wrap: wrap;
+            flex-direction: row;
             justify-content: space-between;
         }
             /*Column*/
             .col{
                 width: calc(100% / 3 - 10px);
-                min-height: 342px;
+                min-width: 230px;
+                min-height: 340px;
                 margin: 0 5px 50px;
                 position: relative;
-            }
-
-            .col.first-product{
-                background-image: url(../img/1.webp);
                 background-size: contain;
-                background-repeat: no-repeat;
             }
 
-            .col.first-product:hover{
-                background-image: url(../img/1b.webp);
-            }
-
-            .col.second-product{
-                background-image: url(../img/2.webp);
-                background-size: contain;
-                background-repeat: no-repeat;
-            }
-
-            .col.second-product:hover{
-                background-image: url(../img/2b.webp);
-            }
-
-            .col.third-product{
-                background-image: url(../img/3.webp);
-                background-size: contain;
-                background-repeat: no-repeat;
-            }
-
-            .col.third-product:hover{
-                background-image: url(../img/3b.webp);
-            }
-
-            .col.fourth-product{
-                background-image: url(../img/4.webp);
-                background-size: contain;
-                background-repeat: no-repeat;
-            }
-
-            .col.fourth-product:hover{
-                background-image: url(../img/4b.webp);
-            }
-
-            .col.fifth-product{
-                background-image: url(../img/5.webp);
-                background-size: contain;
-                background-repeat: no-repeat;
-            }
-
-            .col.fifth-product:hover{
-                background-image: url(../img/5b.webp);
-            }
-
-            .col.sixth-product{
-                background-image: url(../img/6.webp);
-                background-size: contain;
-                background-repeat: no-repeat;
-            }
-
-            .col.sixth-product:hover{
-                background-image: url(../img/6b.webp);
-            }
-
-            /* .col img{
+            .col img{
                 max-width: 100%;
                 max-height: 100%;
-            } */
+            }
                 /*Tags*/
                     .wishlist{
                         width: 40px;
