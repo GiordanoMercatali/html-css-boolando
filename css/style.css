@@ -27,7 +27,7 @@
         position: fixed;
         top: 0;
         left: 0;
-        z-index: 1;
+        z-index: 999;
         background-color: var(--nav-bg-color);
     }
 
@@ -89,11 +89,15 @@
             .col{
                 width: calc(100% / 3 - 10px);
                 min-width: 230px;
-                min-height: 340px;
+                min-height: 485px;
                 margin: 0 5px 50px;
                 position: relative;
                 background-size: contain;
             }
+
+            /* .card{
+                min-height: 425px;
+            } */
 
             .card img{
                 max-width: 100%;
@@ -101,7 +105,7 @@
             }
 
             .card .base-image{
-                position: absolute;
+                position: relative;
                 top: 0;
                 left: 0;
                 z-index: 2;
