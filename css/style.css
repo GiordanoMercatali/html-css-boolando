@@ -63,7 +63,7 @@
     }
 
     .nav-item img{
-        width: calc(100% / 3);
+        width: 25%;
     }
 
 
@@ -108,4 +108,26 @@
 
                     .wishlist i:hover{
                         color: red;
+                    }
+
+                    .shop-tags-list{
+                        width: 200px;
+                        color: white;
+                        position: absolute;
+                        bottom: 30px;
+                    }
+
+                    .shop-tags-list .shop-tag{
+                        padding: 5px 5px;
+                        display: inline-block;
+                    }
+
+                    .shop-tag.discount{
+                        width: calc(100% / 4);
+                        background-color: var(--discount-tag-color);
+                    }
+
+                    .shop-tag.sustainability{
+                        width: calc(100% / 2);
+                        background-color: var(--sustainability-tag-color);
                     }
