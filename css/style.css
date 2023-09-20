@@ -95,39 +95,50 @@
                 max-width: 100%;
                 max-height: 100%;
             }
-                /*Tags*/
-                    .wishlist{
-                        width: 40px;
-                        height: 40px;
-                        padding: 12px 0 0 12px;
-                        background-color: white;
-                        position: absolute;
-                        top: 20px;
-                        right: 0;
-                    }
+                /*Cards*/
+                    /*Tags*/
+                        .wishlist{
+                            width: 40px;
+                            height: 40px;
+                            padding: 12px 0 0 12px;
+                            background-color: white;
+                            position: absolute;
+                            top: 20px;
+                            right: 0;
+                        }
 
-                    .wishlist i:hover{
-                        color: red;
-                    }
+                        .wishlist i:hover{
+                            color: red;
+                        }
 
-                    .shop-tags-list{
-                        width: 200px;
-                        color: white;
-                        position: absolute;
-                        bottom: 30px;
-                    }
+                        .shop-tags-list{
+                            width: 200px;
+                            color: white;
+                            position: absolute;
+                            bottom: 100px;
+                        }
 
-                    .shop-tags-list .shop-tag{
-                        padding: 5px 5px;
-                        display: inline-block;
-                    }
+                        .shop-tags-list .shop-tag{
+                            padding: 5px 5px;
+                            display: inline-block;
+                        }
 
-                    .shop-tag.discount{
-                        width: calc(100% / 4);
-                        background-color: var(--discount-tag-color);
-                    }
+                        .shop-tag.discount{
+                            width: calc(100% / 4);
+                            background-color: var(--discount-tag-color);
+                        }
 
-                    .shop-tag.sustainability{
-                        width: calc(100% / 2);
-                        background-color: var(--sustainability-tag-color);
-                    }
+                        .shop-tag.sustainability{
+                            width: calc(100% / 2);
+                            background-color: var(--sustainability-tag-color);
+                        }
+                    /*Descriptions*/
+                        .current-price{
+                            font-weight: bold;
+                            color: red;
+                        }
+
+                        .old-price{
+                            text-decoration: line-through;
+                        }
+                        
