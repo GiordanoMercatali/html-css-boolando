@@ -1,0 +1,16 @@
+/*Custom properties*/
+:root{
+    --bg-color: rgb(243, 0, 0);
+    --primary-color: brown;
+}
+
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg-color);
+}
