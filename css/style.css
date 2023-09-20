@@ -1,7 +1,10 @@
 /*Custom properties*/
 :root{
-    --bg-color: rgb(243, 0, 0);
-    --primary-color: brown;
+    --nav-bg-color: #ff6900;
+    --footer-bg-color: #1a1a1a;
+    --card-bg-color: #e7e6e5;
+    --discount-tag-color: #ff0000;
+    --sustainability-tag-color: #008000;
 }
 
 /*Reset*/
@@ -9,8 +12,63 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-body{
-    background-color: var(--bg-color);
+.flex{
+    display: flex;
 }
+
+/*Header*/
+    /*Nav*/
+    nav{
+        width: 100%;
+        height: 50px;
+        position: fixed;
+        background-color: var(--nav-bg-color);
+    }
+
+    .navbar{
+        width: 80%;
+        height: 100%;
+        margin: auto;
+    }
+
+    .navbar.flex{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .nav-item{
+        width: calc(100% / 3);
+        height: 100%;
+        text-align: center;
+        padding-top: 14px;
+        color: white;
+    }
+
+    .nav-item a{
+        color: white;
+    }
+
+    ul.flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style-type: none;
+    }
+
+    ul.flex li{
+        margin: 0 10px 0 10px;
+    }
+
+    .nav-item img{
+        width: calc(100% / 3);
+    }
+
+
+/*Main*/
+    /*Container*/
+        /*Row*/
+            /*Column*/
