@@ -78,6 +78,7 @@ header a{
     /*Container*/
     .container{
         width: 80%;
+        max-width: 1100px;
         margin: 0 auto;
         margin-top: 100px;
     }
@@ -90,10 +91,11 @@ header a{
         }
             /*Column*/
             .col{
-                width: calc(100% / 3 - 10px);
+                width: calc(100% / 3 - 15px);
                 min-width: 230px;
                 min-height: 485px;
-                margin: 0 5px 50px;
+                /* margin: 0 5px 50px; */
+                margin-bottom: 50px;
                 position: relative;
                 background-size: contain;
             }
@@ -122,9 +124,10 @@ header a{
                     z-index: 1;
                 }
 
-                .card .base-image:hover{
+                .card .card-image:hover .base-image{
                     z-index: -2;
                 }
+
                     /*Tags*/
                         .wishlist{
                             width: 40px;
@@ -137,7 +140,7 @@ header a{
                             z-index: 100;
                         }
 
-                        .wishlist i:hover{
+                        .wishlist:hover i{
                             color: red;
                         }
 
