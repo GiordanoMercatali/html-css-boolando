@@ -20,6 +20,9 @@
 }
 
 /*Header*/
+header a{
+    font-weight: bold;
+}
     /*Nav*/
     nav{
         width: 100%;
@@ -99,30 +102,29 @@
                 min-height: 425px;
             } */
 
-            .card img{
-                max-width: 100%;
-                max-height: 100%;
-            }
-
-            .card .base-image{
-                position: relative;
-                top: 0;
-                left: 0;
-                z-index: 2;
-            }
-            
-            .card .alt-image{
-                position: absolute;
-                top: 0;
-                left: 0;
-                z-index: 1;
-            }
-
-            .card .base-image:hover{
-                z-index: -2;
-            }
-
                 /*Cards*/
+                .card img{
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+
+                .card .base-image{
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                    z-index: 2;
+                }
+                
+                .card .alt-image{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 1;
+                }
+
+                .card .base-image:hover{
+                    z-index: -2;
+                }
                     /*Tags*/
                         .wishlist{
                             width: 40px;
